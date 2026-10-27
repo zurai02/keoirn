@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Keoirn UI Built with Intention</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#">
+      <img src="https://raw.githubusercontent.com/zurai02/keoirn/main/assets/685161129-33f7809f-3384-4ce0-9111-76cf80531348.jpg" alt="Keoirn logo" class="logo">
+      <span>keoirn<b>.</b></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#components">Components</a>
+      <a href="#principles">Principles</a>
+      <a href="https://github.com/zurai02/keoirn" target="_blank" rel="noreferrer" class="gh-btn">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="badge">Open Source UI</span>
+      <h1>Interfaces with<br><span>quiet confidence.</span></h1>
+      <p class="lede">A calm, sculpted component system built for modern web craft.</p>
+      <div class="actions">
+        <a href="#components" class="btn btn-primary">Explore Components</a>
+        <button id="themeToggle" class="btn btn-outline">Toggle Theme</button>
+      </div>
+    </section>
+
+    <section id="components" class="section">
+      <h2>Interactive Showcase</h2>
+      <div class="showcase-card">
+        <div class="component-group">
+          <h3>Buttons</h3>
+          <div class="row">
+            <button class="btn btn-primary">Primary Action</button>
+            <button class="btn btn-secondary">Secondary Action</button>
+            <button class="btn btn-outline">Outline</button>
+            <button class="btn btn-disabled" disabled>Disabled</button>
+          </div>
+        </div>
+
+        <div class="component-group">
+          <h3>Form Inputs</h3>
+          <div class="input-wrap">
+            <label for="name">Workspace Name</label>
+            <input type="text" id="name" placeholder="e.g. Design Studio">
+          </div>
+        </div>
+
+        <div class="component-group">
+          <h3>Notifications</h3>
+          <button id="triggerToast" class="btn btn-primary">Trigger Toast</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite">
+    Changes saved successfully.
+  </div>
+
+  <footer>
+    <p>© Keoirn · <a href="https://github.com/zurai02/keoirn" target="_blank" rel="noreferrer">GitHub Repository</a></p>
+  </footer>
+</body>
+</html>
