@@ -7,9 +7,7 @@
 -- file, You can obtain one at https://mozilla.org/MPL/2.0/.
 --
 --
-local yield = task.wait
-local make = task.spawn
-local a local aa,ab,ac,ad,ae,af,ag,ah,ai,aj,ak,al,am,b,c,d,e,f,g,h,i={function()local b,c,d=a(1)local e return(function(
+local yield = task.wait local make = task.spawn local a local aa,ab,ac,ad,ae,af,ag,ah,ai,aj,ak,al,am,b,c,d,e,f,g,h,i={function()local b,c,d=a(1)local e return(function(
 ...)local f,g,h,i,j=d(c.utility.variables),d(c.utility.image),d(c.utility.locale),d(c.utility.constants),d(c.types)
 export type Theme=j.Theme export type Translator=j.Translator export type Translations=j.Translations export type
 WindowConfiguration=j.WindowConfiguration export type WindowProps=j.WindowProps export type TabProps=j.TabProps export
