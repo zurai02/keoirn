@@ -1,0 +1,13 @@
+{
+    "InfiniteJump": false,
+    "NoClip": false,
+    "WalkSpeed": 16,
+    "JumpPower": 50,
+    "FlyMode": "Off",
+    "ESPTypes": ["Box", "Name"],
+    "CustomTag": "",
+    "ToggleESPKey": "E",
+    "FlyKey": "F",
+    "ESPColor": [255, 0, 0],
+    "ChamsColor": [0, 180, 255]
+}
