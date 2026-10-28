@@ -1,12 +1,3 @@
--- Keoirn v1.0.0
--- loadstring(game:HttpGet("YOUR_RAW_URL_HERE"))()
---
--- Self-hosted fork by zurai02
--- This Source Code Form is subject to the terms of the Mozilla Public
--- License, v. 2.0. If a copy of the MPL was not distributed with this
--- file, You can obtain one at https://mozilla.org/MPL/2.0/.
---
---
 local a local aa,ab,ac,ad,ae,af,ag,ah,ai,aj,ak,al,am,b,c,d,e,f,g,h,i={function()local b,c,d=a(1)local e return(function(
 ...)local f,g,h,i,j=d(c.utility.variables),d(c.utility.image),d(c.utility.locale),d(c.utility.constants),d(c.types)
 export type Theme=j.Theme export type Translator=j.Translator export type Translations=j.Translations export type
